@@ -1,0 +1,14 @@
+#! /bin/sh
+
+set -e
+
+case "$1" in
+  upgrade)
+    if dpkg --compare-versions "$2" eq "11.10.2"; then
+      update-alternatives --remove lightdm-config-derivative /usr/share/xubuntu/lightdm/lightdm.conf
+      update-alternatives --remove default-xsession-derivative /usr/share/xsessions/xubuntu.desktop
+    fi
+    ;;
+esac
+
+#DEBHELPER#

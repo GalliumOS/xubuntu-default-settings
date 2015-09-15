@@ -1,5 +1,5 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.30 for hugh on Sun Sep  6 12:39:30 2015.
+# Written by xscreensaver-demo 5.30 for hugh on Mon Sep 14 14:27:35 2015.
 # http://www.jwz.org/xscreensaver/
 
 timeout:	0:10:00
@@ -31,11 +31,11 @@ dpmsSuspend:	2:00:00
 dpmsOff:	4:00:00
 grabDesktopImages:  False
 grabVideoFrames:    False
-chooseRandomImages: False
-imageDirectory:	
+chooseRandomImages: True
+imageDirectory:	/usr/share/wallpapers
 
-mode:		one
-selected:	115
+mode:		blank
+selected:	143
 
 textMode:	url
 textLiteral:	XScreenSaver

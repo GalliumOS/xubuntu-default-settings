@@ -1,3 +1,21 @@
+xubuntu-default-settings (15.04.10) vivid; urgency=medium
+
+  * Updated etc/skel/.config
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Fri, 15 Oct 2015 06:06:50 -0400
+
+xubuntu-default-settings (15.04.9) vivid; urgency=medium
+
+  * Updated etc/skel/.config
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 15 Oct 2015 06:06:50 -0400
+
+xubuntu-default-settings (15.04.8) vivid; urgency=medium
+
+  * Updated etc/skel/.config
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 15 Oct 2015 06:06:50 -0400
+
 xubuntu-default-settings (15.04.7) vivid; urgency=medium
 
   * Updated etc/skel/.xscreensaver 

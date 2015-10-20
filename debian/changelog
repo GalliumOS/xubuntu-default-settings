@@ -1,3 +1,15 @@
+xubuntu-default-settings (15.04.12) vivid; urgency=medium
+
+  * Removed lightdm-gtk-greeter as a dep 
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Mon, 19 Oct 2015 06:06:50 -0400
+
+xubuntu-default-settings (15.04.11) vivid; urgency=medium
+
+  * Updated etc/skel/.config
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Fri, 15 Oct 2015 06:06:50 -0400
+
 xubuntu-default-settings (15.04.10) vivid; urgency=medium
 
   * Updated etc/skel/.config

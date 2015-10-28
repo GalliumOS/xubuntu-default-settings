@@ -1,3 +1,28 @@
+xubuntu-default-settings (15.04.16) vivid; urgency=medium
+
+  * Added better Chromium and Google chrome defaults
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 27 Oct 2015 06:06:50 -0400
+
+xubuntu-default-settings (15.04.15) vivid; urgency=medium
+
+  * Updated panel size and whisker menu icon sizes
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 22 Oct 2015 06:06:50 -0400
+
+xubuntu-default-settings (15.04.14) vivid; urgency=medium
+
+  * Removed indicator plugin and changed kodi defaults slightly
+  * Added vlc defaults
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 20 Oct 2015 06:06:50 -0400
+
+xubuntu-default-settings (15.04.13) vivid; urgency=medium
+
+  * Added firefox, chromium, and kodi defaults
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Mon, 19 Oct 2015 06:06:50 -0400
+
 xubuntu-default-settings (15.04.12) vivid; urgency=medium
 
   * Removed lightdm-gtk-greeter as a dep 

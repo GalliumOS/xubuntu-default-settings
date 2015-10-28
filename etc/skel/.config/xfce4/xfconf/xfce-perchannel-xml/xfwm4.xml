@@ -71,7 +71,7 @@
     <property name="urgent_blink" type="bool" value="false"/>
     <property name="use_compositing" type="bool" value="true"/>
     <property name="workspace_count" type="int" value="2"/>
-    <property name="wrap_cycle" type="bool" value="true"/>
+    <property name="wrap_cycle" type="bool" value="false"/>
     <property name="workspace_names" type="array">
       <value type="string" value="Workspace 1"/>
       <value type="string" value="Workspace 2"/>
@@ -79,7 +79,7 @@
       <value type="string" value="Workspace 4"/>
     </property>
     <property name="wrap_layout" type="bool" value="true"/>
-    <property name="wrap_resistance" type="int" value="30"/>
+    <property name="wrap_resistance" type="int" value="38"/>
     <property name="wrap_windows" type="bool" value="true"/>
     <property name="wrap_workspaces" type="bool" value="false"/>
     <property name="zoom_desktop" type="bool" value="true"/>

@@ -1,3 +1,15 @@
+xubuntu-default-settings (15.04.20) vivid; urgency=medium
+
+  * Changed vlc defaults
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 5 Nov 2015 06:06:50 -0400
+
+xubuntu-default-settings (15.04.19) vivid; urgency=medium
+
+  * Changed default wallpapers for all workspaces
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Fri, 30 Oct 2015 06:06:50 -0400
+
 xubuntu-default-settings (15.04.18) vivid; urgency=medium
 
   * Fixed default icon theme name

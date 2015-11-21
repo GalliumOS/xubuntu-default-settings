@@ -1,3 +1,9 @@
+xubuntu-default-settings (15.04.21) vivid; urgency=medium
+
+  * Removed Google chrome .desktop file and defaults again
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 10 Nov 2015 06:06:50 -0400
+
 xubuntu-default-settings (15.04.20) vivid; urgency=medium
 
   * Changed vlc defaults

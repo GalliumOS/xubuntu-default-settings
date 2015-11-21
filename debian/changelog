@@ -1,3 +1,9 @@
+xubuntu-default-settings (15.04.22) vivid; urgency=medium
+
+  * Changed default cursor theme size
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Fri, 20 Nov 2015 06:06:50 -0400
+
 xubuntu-default-settings (15.04.21) vivid; urgency=medium
 
   * Removed Google chrome .desktop file and defaults again

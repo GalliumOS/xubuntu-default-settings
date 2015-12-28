@@ -1,3 +1,9 @@
+xubuntu-default-settings (15.04.23) vivid; urgency=medium
+
+  * Added xscreensaver defaults
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Mon, 29 Dec 2015 06:06:50 -0400
+
 xubuntu-default-settings (15.04.22) vivid; urgency=medium
 
   * Changed default cursor theme size

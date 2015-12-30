@@ -1,3 +1,9 @@
+xubuntu-default-settings (15.04.5-galliumos25) vivid; urgency=medium
+
+  * Changed cursor size default back
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 29 Dec 2015 06:06:50 -0400
+
 xubuntu-default-settings (15.04.23) vivid; urgency=medium
 
   * Added xscreensaver defaults

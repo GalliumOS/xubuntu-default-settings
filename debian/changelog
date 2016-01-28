@@ -1,3 +1,9 @@
+xubuntu-default-settings (15.04.5-0galliumos27) vivid; urgency=medium
+
+  * Changed font hint to slight
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 27 Jan 2016 21:05:33 +0000
+
 xubuntu-default-settings (15.04.5-0galliumos26) vivid; urgency=medium
 
   * Added many default mime types

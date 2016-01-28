@@ -1,3 +1,11 @@
+xubuntu-default-settings (15.04.5-0galliumos26) vivid; urgency=medium
+
+  * Added many default mime types
+  * Removed chromium.desktop file
+  * Set default font to roboto
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 27 Jan 2016 21:05:33 +0000
+
 xubuntu-default-settings (15.04.5-0galliumos25) vivid; urgency=medium
 
   * Set package version to match provenance

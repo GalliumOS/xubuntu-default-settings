@@ -1,3 +1,17 @@
+xubuntu-default-settings (15.04.5-0galliumos29) vivid; urgency=medium
+
+  * Set terminal default
+  * Fix for chromium prompting to set the default browser
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 28 Jan 2016 21:05:33 +0000
+
+xubuntu-default-settings (15.04.5-0galliumos28) vivid; urgency=medium
+
+  * Modified keyboard shortcuts
+  * Set default browser and terminal default apps
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 27 Jan 2016 21:05:33 +0000
+
 xubuntu-default-settings (15.04.5-0galliumos27) vivid; urgency=medium
 
   * Changed font hint to slight

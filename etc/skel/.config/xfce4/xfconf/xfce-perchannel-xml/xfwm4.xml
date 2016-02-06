@@ -78,7 +78,7 @@
       <value type="string" value="Workspace 3"/>
       <value type="string" value="Workspace 4"/>
     </property>
-    <property name="wrap_layout" type="bool" value="true"/>
+    <property name="wrap_layout" type="bool" value="false"/>
     <property name="wrap_resistance" type="int" value="38"/>
     <property name="wrap_windows" type="bool" value="true"/>
     <property name="wrap_workspaces" type="bool" value="false"/>

@@ -1,8 +1,14 @@
-xubuntu-default-settings (15.04.5-0galliumos31) vivid; urgency=medium
+xubuntu-default-settings (15.04.5-0galliumos32) vivid; urgency=medium
 
   * Added shortcuts Super + m and Alt + m to open the whisker menu
 
  -- Hugh Greenberg <hugh@galliumos.org>  Sun, 7 Feb 2016 21:05:33 +0000
+
+xubuntu-default-settings (15.04.5-0galliumos31) vivid-galliumos; urgency=medium
+
+  * Removed "Mail Reader", added "HexChat" and "DeaDBeeF" to Whisker Favorites
+
+ -- reynhout <reynhout@galliumos.org>  Sat, 06 Feb 2016 17:04:03 +0000
 
 xubuntu-default-settings (15.04.5-0galliumos30) vivid; urgency=medium
 

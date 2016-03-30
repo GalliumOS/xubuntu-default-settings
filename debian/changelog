@@ -1,3 +1,9 @@
+xubuntu-default-settings (15.04.5-0galliumos34) xenon; urgency=medium
+
+  * update depend fonts-droid -> fonts-droid-fallback for xenial
+
+ -- reynhout <reynhout@galliumos.org>  Wed, 30 Mar 2016 02:31:49 +0000
+
 xubuntu-default-settings (15.04.5-0galliumos33) vivid; urgency=medium
 
   * Added screenshot shortcuts for Xf86Display

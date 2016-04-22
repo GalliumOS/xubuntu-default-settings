@@ -4,6 +4,7 @@ xubuntu-default-settings (16.04.6-galliumos1) xenon; urgency=medium
     - debian/control: remove lightdm-gtk-greeter{-config}
     - add debian/galliumos/upstream
   * GalliumOS customizations moved to new package
+  * Remove etc/skel/.xscreensaver
 
  -- reynhout <reynhout@galliumos.org>  Fri, 22 Apr 2016 18:49:24 +0000
 

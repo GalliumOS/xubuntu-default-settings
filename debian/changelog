@@ -1,177 +1,131 @@
-xubuntu-default-settings (15.04.5-0galliumos34) xenon; urgency=medium
+xubuntu-default-settings (16.04.6) xenial; urgency=medium
 
-  * update depend fonts-droid -> fonts-droid-fallback for xenial
+  * etc/skel/.config/libreoffice/4/user/registrymodifications.xcu
+    - Set elementary as the default icon theme (LP: #1569968)
 
- -- reynhout <reynhout@galliumos.org>  Wed, 30 Mar 2016 02:31:49 +0000
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 17 Apr 2016 08:01:57 -0400
 
-xubuntu-default-settings (15.04.5-0galliumos33) vivid; urgency=medium
+xubuntu-default-settings (16.04.5) xenial; urgency=medium
 
-  * Added screenshot shortcuts for Xf86Display
+  * Drop "Contribute to Xubuntu" and "Xubuntu Website"
+    links, now included in documentation (LP: #1537742)
+    - etc/xdg/xdg-xubuntu/menus/xfce-applications.menu
+    - usr/share/xubuntu/applications/po/POTFILES.in
+    - usr/share/xubuntu/applications/po/xds-desktop-files.pot
+    - usr/share/xubuntu/applications/xubuntu-contribute.desktop.in
+    - usr/share/xubuntu/applications/xubuntu-website.desktop.in
+  * Hide ImageMagick Q16 links from the menu (LP: #1549732)
+    - etc/xdg/xdg-xubuntu/menus/xfce-applications.menu
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 13 Apr 2016 19:47:11 -0400
+
+xubuntu-default-settings (16.04.4) xenial; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/parole.xml
+    - Set default video sink to XV
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 14 Mar 2016 22:15:29 -0400
 
- -- Hugh Greenberg <hugh@galliumos.org>  Sun, 7 Feb 2016 21:05:33 +0000
+xubuntu-default-settings (16.04.3) xenial; urgency=medium
 
-xubuntu-default-settings (15.04.5-0galliumos32) vivid; urgency=medium
+  [ Unit 193 ]
+  * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu,
+    etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc,
+    usr/share/xubuntu/applications/defaults.list:
+    - Change ubuntu-software-center → gnome-software.
 
-  * Added shortcuts Super + m and Alt + m to open the whisker menu
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 02 Mar 2016 20:05:52 -0500
 
- -- Hugh Greenberg <hugh@galliumos.org>  Sun, 7 Feb 2016 21:05:33 +0000
+xubuntu-default-settings (16.04.2) xenial; urgency=medium
 
-xubuntu-default-settings (15.04.5-0galliumos31) vivid-galliumos; urgency=medium
+  * Update font to Noto Sans:
+    - debian/control
+    - etc/skel/.config/Trolltech.conf
+    - etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+    - etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+    - usr/share/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf
 
-  * Removed "Mail Reader", added "HexChat" and "DeaDBeeF" to Whisker Favorites
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 25 Feb 2016 21:07:36 -0500
 
- -- reynhout <reynhout@galliumos.org>  Sat, 06 Feb 2016 17:04:03 +0000
+xubuntu-default-settings (16.04.1) xenial; urgency=medium
 
-xubuntu-default-settings (15.04.5-0galliumos30) vivid; urgency=medium
+  * Updated lightdm config locations:
+    - debian/60-xubuntu.conf => usr/share/lightdm/lightdm.conf.d/
+    - etc/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf =>
+      usr/share/lightdm/lightdm-gtk-greeter.conf.d/
+  * Remove obsolete lightdm configuration files:
+    - debian/xubuntu-default-settings.postinst
+    - debian/xubuntu-default-settings.postrm
+    - debian/xubuntu-default-settings.preinst
+    - debian/xubuntu-default-settings.prerm
+    - debian/xubuntu-default-settings.maintscript
+  * usr/share/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf
+    - Use new Plymouth themes directory (LP: #1533200)
+    - Simplify configuration, stack on 01_ubuntu.conf
+  * etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+  * usr/share/xubuntu/applications/defaults.list
+    - Replace gmusicbrowser references with parole where appropriate.
 
-  * Set default keyboard shortcuts for screenshots
-  * Set default for workspace wrapping to false
-  * Changed default cursor theme to dmz-black 
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 11 Feb 2016 06:13:37 -0500
 
- -- Hugh Greenberg <hugh@galliumos.org>  Fri, 5 Feb 2016 21:05:33 +0000
+xubuntu-default-settings (16.04.0) xenial; urgency=medium
 
-xubuntu-default-settings (15.04.5-0galliumos29) vivid; urgency=medium
+  * debian/xubuntu-default-settings.gsettings-override
+    - Remove gmusicbrowser from indicator-sound
+    - Add parole to indicator-sound
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/parole.xml
+    - Enable Parole MPRIS2 plugin by default
+  * debian/compat
+    - Bump debhelper version
 
-  * Set terminal default
-  * Fix for chromium prompting to set the default browser
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 10 Jan 2016 22:34:13 -0500
 
- -- Hugh Greenberg <hugh@galliumos.org>  Thu, 28 Jan 2016 21:05:33 +0000
+xubuntu-default-settings (15.10.3) wily; urgency=medium
 
-xubuntu-default-settings (15.04.5-0galliumos28) vivid; urgency=medium
+  * etc/X11/Xsession.d/56xubuntu-session
+    - Workaround clutter freezing gtk applications (LP: #1462445)
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/parole.xml
+    - Set parole video sink back to clutter
 
-  * Modified keyboard shortcuts
-  * Set default browser and terminal default apps
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 06 Sep 2015 19:30:35 -0400
 
- -- Hugh Greenberg <hugh@galliumos.org>  Wed, 27 Jan 2016 21:05:33 +0000
+xubuntu-default-settings (15.10.2) wily; urgency=medium
 
-xubuntu-default-settings (15.04.5-0galliumos27) vivid; urgency=medium
+  [ Robert Ancell ]
+  * debian/60-xubuntu.conf:
+    - Use [Seat:*] section for LightDM configuration instead of
+      deprecated [SeatDefaults]
 
-  * Changed font hint to slight
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 10 Aug 2015 20:27:49 -0400
 
- -- Hugh Greenberg <hugh@galliumos.org>  Wed, 27 Jan 2016 21:05:33 +0000
-
-xubuntu-default-settings (15.04.5-0galliumos26) vivid; urgency=medium
-
-  * Added many default mime types
-  * Removed chromium.desktop file
-  * Set default font to roboto
-
- -- Hugh Greenberg <hugh@galliumos.org>  Wed, 27 Jan 2016 21:05:33 +0000
-
-xubuntu-default-settings (15.04.5-0galliumos25) vivid; urgency=medium
-
-  * Set package version to match provenance
-
- -- reynhout <reynhout@galliumos.org>  Sun, 10 Jan 2016 21:05:33 +0000
-
-xubuntu-default-settings (15.04.5-galliumos25) vivid; urgency=medium
-
-  * Changed cursor size default back
-
- -- Hugh Greenberg <hugh@galliumos.org>  Tue, 29 Dec 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.23) vivid; urgency=medium
-
-  * Added xscreensaver defaults
-
- -- Hugh Greenberg <hugh@galliumos.org>  Mon, 29 Dec 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.22) vivid; urgency=medium
-
-  * Changed default cursor theme size
-
- -- Hugh Greenberg <hugh@galliumos.org>  Fri, 20 Nov 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.21) vivid; urgency=medium
-
-  * Removed Google chrome .desktop file and defaults again
-
- -- Hugh Greenberg <hugh@galliumos.org>  Tue, 10 Nov 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.20) vivid; urgency=medium
-
-  * Changed vlc defaults
-
- -- Hugh Greenberg <hugh@galliumos.org>  Thu, 5 Nov 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.19) vivid; urgency=medium
-
-  * Changed default wallpapers for all workspaces
-
- -- Hugh Greenberg <hugh@galliumos.org>  Fri, 30 Oct 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.18) vivid; urgency=medium
-
-  * Fixed default icon theme name
-
- -- Hugh Greenberg <hugh@galliumos.org>  Fri, 30 Oct 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.17) vivid; urgency=medium
-
-  * Removed Google chrome defaults
-
- -- Hugh Greenberg <hugh@galliumos.org>  Thu, 29 Oct 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.16) vivid; urgency=medium
-
-  * Added better Chromium and Google chrome defaults
-
- -- Hugh Greenberg <hugh@galliumos.org>  Tue, 27 Oct 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.15) vivid; urgency=medium
-
-  * Updated panel size and whisker menu icon sizes
-
- -- Hugh Greenberg <hugh@galliumos.org>  Thu, 22 Oct 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.14) vivid; urgency=medium
-
-  * Removed indicator plugin and changed kodi defaults slightly
-  * Added vlc defaults
-
- -- Hugh Greenberg <hugh@galliumos.org>  Tue, 20 Oct 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.13) vivid; urgency=medium
-
-  * Added firefox, chromium, and kodi defaults
-
- -- Hugh Greenberg <hugh@galliumos.org>  Mon, 19 Oct 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.12) vivid; urgency=medium
-
-  * Removed lightdm-gtk-greeter as a dep 
-
- -- Hugh Greenberg <hugh@galliumos.org>  Mon, 19 Oct 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.11) vivid; urgency=medium
-
-  * Updated etc/skel/.config
-
- -- Hugh Greenberg <hugh@galliumos.org>  Fri, 15 Oct 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.10) vivid; urgency=medium
-
-  * Updated etc/skel/.config
-
- -- Hugh Greenberg <hugh@galliumos.org>  Fri, 15 Oct 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.9) vivid; urgency=medium
-
-  * Updated etc/skel/.config
-
- -- Hugh Greenberg <hugh@galliumos.org>  Thu, 15 Oct 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.8) vivid; urgency=medium
-
-  * Updated etc/skel/.config
-
- -- Hugh Greenberg <hugh@galliumos.org>  Thu, 15 Oct 2015 06:06:50 -0400
-
-xubuntu-default-settings (15.04.7) vivid; urgency=medium
-
-  * Updated etc/skel/.xscreensaver 
-
- -- Hugh Greenberg <hugh@galliumos.org>  Mon, 14 Sep 2015 06:06:50 -0400
+xubuntu-default-settings (15.10.1) wily; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+  * etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc
+  * usr/share/xubuntu/applications/defaults.list
+    - Replace Abiword and Gnumeric with LibreOffice
+  * debian/xubuntu-default-settings.preinst
+  * debian/xubuntu-default-settings.postinst
+  * debian/xubuntu-default-settings.postrm
+  * etc/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf
+  * etc/xdg/xdg-xubuntu/lightdm/lightdm-gtk-greeter.conf
+    - Transition to new lightdm-gtk-greeter config
+  * etc/X11/Xsession.d/56xubuntu-session
+    - Disable Gtk 3.16 overlay scrollbars
+    - Use GTK theme for QT5 applications
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/parole.xml
+    - Workaround for parole freezing at startup (LP: #1462445)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 19 Jul 2015 00:03:49 -0400
+
+xubuntu-default-settings (15.10.0) wily; urgency=medium
+
+  * /usr/share/xfce4/whiskermenu
+    - Moved to /etc/xdg/xdg-xubuntu/xfce4/whiskermenu,
+      configuration directories moved upstream
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 25 May 2015 10:36:42 -0400
 
 xubuntu-default-settings (15.04.5) vivid; urgency=medium
 

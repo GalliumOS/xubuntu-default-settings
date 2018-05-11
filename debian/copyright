@@ -1,9 +1,10 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Xubuntu Default Settings
 Upstream-Contact: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
 
 Files: *
-Copyright: 2013-2014, Sean Davis <bluesabre@ubuntu.com>
+Copyright: 2013-2018, Sean Davis <bluesabre@ubuntu.com>
+           2013-2018, Simon Steinbeiß <simon@xfce.org>
            2007-2011, Lionel Le Folgoc <mrpouit@ubuntu.com>
            2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
            2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
@@ -23,5 +24,5 @@ License: GPL-2+
  along with this package; if not, write to the Free Software
  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
  .
- On Debian systems the full text of the GNU General Public License version 2 
+ On Debian systems the full text of the GNU General Public License version 2
  can be found in the `/usr/share/common-licenses/GPL-2' file.
